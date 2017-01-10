@@ -12,8 +12,62 @@ Let's start with simple stuff. Say you have a large collection of numbers, may b
 
 Statistics comes handy in this context. It helps us to represent the whole collection of numbers into a simple concept called "central tendency".
 
-In statistics, the 3 basic ways in which "central tendancy" can be expressed are:
+In statistics, the 3 basic and most powerful ways in which "central tendancy" can be expressed are:
 
 * Mean (more specifically Arithmetic Mean)
 * Median
 * Mode
+
+Most of us often get ourselves into this confusion when to use Mean, Median and Mode. Which is useful over the other?
+
+The answer gets more clear when we understand what each of them does to help us represent the data at our hand more precisely.
+
+### Mean
+
+This term is used with "average" interchangably. There are many different means like Geometric Mean, Harmonic Mean. To keep our discussions simple, we narrow down to just Arithmetic Mean.
+
+It is used to summarize the data by identifying the average of the given data. The definition is as follows:
+
+```
+Mean = Sum of the given numbers / Total number of numbers
+```
+
+#### When to use:
+Lets take an example. Consider we have the following set of data
+
+1 1 2 3 4
+
+Mean = (1 + 1 + 2 + 3 + 4) / 5 = 2.2
+
+Hence, instead of giving all the numbers to the other person we can just tell that the numbers are in the form whose mean is "2.2".
+
+The key problem comes when there is an anamoly or the data that is completely deviated from the others. Ex. Let us consider we have the following set of numbers:
+
+1 1 2 3 100
+
+Mean = (1 + 1 + 2 + 3 + 100) / 5 = 21.4
+
+This mean (21.4) falsely represent the given numbers (eg. 1 is way far from 21.4) because of the existance of the number "100". 
+
+In such cases we will normally be using one the two other alternatives "Median" or "Mode"
+
+### Median
+
+By definition, it is the number present in the middle when the numbers are sorted in either ascending/descending.
+
+Eg:
+
+For the numbers 1 1 2 3 100. The middle number is '2'. Hence the median is '2'. Which represents majority of numbers in the given list. 
+
+Observe that the presence of anamoly has no effect in the median.
+
+*In case if the total number of numbers is even then the mean of the middle two numbers is taken as the median.*
+
+### Mode
+
+By definition it is the number that is most repeated in the given list.
+
+*In case if there is two or more numbers sharing the max count then picking up mode should be strategical*
+
+
+
