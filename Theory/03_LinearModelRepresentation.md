@@ -43,3 +43,5 @@ kf = KFold(train_data.shape[0], n_folds=3, random_state=1)
 for train, test in kf:
  # Do your processeing
 ```
+
+## [Next](https://github.com/sheikirfanbasha/MachineLearning/tree/master/Excerices/01_Titanic-MachineLearningfromDisaster)
