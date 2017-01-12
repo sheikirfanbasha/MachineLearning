@@ -6,5 +6,5 @@ To describe the supervised learning problem slightly more formally, our goal is,
 
 where 'h' is a continuous function that maps our prediction variables to the target variable. In other words, it is a curve that is generated to fit in the points (prediction_variables, target) with a minimal error rate.
 
-The most popular algortihm that is used to getting the error rate minimal is **Gradient Descent**. Most of the supervised learning algorithms auto calculates the learning rate that is required for gradient descent from the given training dataset. More information on Gradient Descent can be found ![here](https://en.wikipedia.org/wiki/Gradient_descent)
+The most popular algortihm that is used to getting the error rate minimal is **Gradient Descent**. Most of the supervised learning algorithms auto calculates the learning rate that is required for gradient descent from the given training dataset. More information on Gradient Descent can be found [here](https://en.wikipedia.org/wiki/Gradient_descent)
 
