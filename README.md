@@ -8,3 +8,6 @@ The material or excersises will be drawn from different sources:
 * Kaggle
 * Khan Academy
 * Scripting in Python from tutorials point
+
+
+## [Get Started](https://github.com/sheikirfanbasha/MachineLearning/blob/master/Theory/01_BasicsOfMachineLearning.md)

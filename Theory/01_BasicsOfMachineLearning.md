@@ -70,4 +70,4 @@ By definition it is the number that is most repeated in the given list.
 *In case if there is two or more numbers sharing the max count then picking up mode should be strategical*
 
 
-
+## [Next](https://github.com/sheikirfanbasha/MachineLearning/blob/master/Theory/02_IntroductionToML.md)

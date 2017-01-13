@@ -20,3 +20,5 @@ Given no labelling on the data. Yet the algo, groups related items into the same
 ###Non-Clustering:
 
 **Ex.** Separation of two overlapping musics. Removing BGM from a song
+
+## [Next](https://github.com/sheikirfanbasha/MachineLearning/blob/master/Theory/03_LinearModelRepresentation.md)

@@ -73,3 +73,4 @@ The following is a comparison of gradient descent and the normal equation:
 
 With the normal equation, computing the inversion has complexity O(n<sup>3</sup>). So if we have a very large number of features, the normal equation will be slow. In practice, when n exceeds 10,000 it might be a good time to go from a normal solution to an iterative process.
 
+## [Next](https://github.com/sheikirfanbasha/MachineLearning/tree/master/Excerices/01_Titanic-MachineLearningfromDisaster)
