@@ -43,3 +43,33 @@ kf = KFold(train_data.shape[0], n_folds=3, random_state=1)
 for train, test in kf:
  # Do your processeing
 ```
+
+#### Note
+
+We can not always fit the given dataset in to Straight line.
+In such cases, we can make it a quadratic/cubilc/square root curve by adding more features from the given set of features
+Ex. if size is a feature at hand. We can use pow(size, 2) as the second and pow(size, 3) as the third.
+
+One important thing to keep in mind  while trying to fit in non-linear curves is "Scale of the features". They must be ensured to that they fall in the minimum range. This can be achieved by "Feature Scaling"
+
+If Feature Scaling isn't applied then the algorithm (gradient descent) is proned to take a zig zag mannered curve that takes a very long before it converges to global minima. 
+
+#### Normal Equation
+
+Gradient descent gives one way of minimizing our cost function (i.e., minimal error rate). Let’s discuss a second way of doing so, this time performing the minimization explicitly and without resorting to an iterative algorithm. In the "Normal Equation" method, we will minimize J by explicitly taking its derivatives with respect to the θj ’s, and setting them to zero. This allows us to find the optimum theta without iteration. The normal equation formula is given below:
+
+**θ=(X<sup>T</sup>X)<sup>−1</sup>X<sup>T</sup>y**
+
+There is no need to do feature scaling with the normal equation.
+
+The following is a comparison of gradient descent and the normal equation:
+
+| Gradient Descent | Normal Equation |
+| ---------------- | --------------- |
+| Need to choose alpha | No need to choose alpha |
+| Needs many iterations | No need to iterate |
+| O(kn<sup>2</sup>) | O(n<sup>3</sup>), need to calculate inverse of X<sup>T</sup>X |
+| Works well when n is large | Slow if n is very large |
+
+With the normal equation, computing the inversion has complexity O(n<sup>3</sup>). So if we have a very large number of features, the normal equation will be slow. In practice, when n exceeds 10,000 it might be a good time to go from a normal solution to an iterative process.
+
